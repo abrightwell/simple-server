@@ -7,7 +7,13 @@ This is simply just a configuration for runnint [Grunt Connect](https://github.c
 Place whatever files desired to be made available into the ```www-root``` directory.
 
 ```
+# Install grunt if not already installed.
+$> npm install -g grunt-cli
+
+# Install grunt connect module.
 $> npm install grunt-contrib-connect
+
+# Run server.
 $> grunt connect
 ```
 
